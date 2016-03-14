@@ -7,7 +7,6 @@
   margin-right: auto;
   position: relative;
 }
-
 span{
   clear: left;
   vertical-align: middle;
@@ -20,13 +19,15 @@ span{
 }
 #main_pic_container{
   width:22px;
-  padding-right:4px
+  padding-right:4px;
+  margin-left: 4px;
 }
 #main_pic{
+    margin-left: 4px;
   width: 22px;
   height: 22px;
   border: 1px white solid;
-  padding-right:4px;
+  margin-right: 4px;
 }
 #main_menu_container{
   line-height:12pt;

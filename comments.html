@@ -5,6 +5,11 @@
     <title>Hacker News</title>
     <link rel="icon" href="icon.ico">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <table>
@@ -18,28 +23,9 @@
               </span>
             </td>
             <td id = "login">
-              <div class="dropdown">
-                <span>Register</span>
-                <div class="dropdown-content">
-                  <form class = "login_drop" action="index.html" method="post">
-                    username <input type="text" name="username" id = "login_inf" class="input_line"><br>
-                    password <input type="password" name="password" id = "login_inf" class="input_line"><br>
-                    repeat password <input type="password" name="username" id = "login_inf" class="input_line"><br>
-                    <input type="submit" name="submit_thread" id="login_submit">
-                  </form>
-                </div>
-              </div>
-               |
-              <div class="dropdown">
-                <span>login</span>
-                <div class="dropdown-content">
-                  <form class = "login_drop" action="index.html" method="post">
-                    username <input type="text" name="username" id = "login_inf" class="input_line"><br>
-                    password <input type="password" name="password" id = "login_inf" class="input_line"><br>
-                    <input type="submit" name="submit_thread" id="login_submit" value="Sign in">
-                  </form>
-                </div>
-              </div>
+              <a href="profile.html"><span>hackerfrommars</span></a>
+              |
+              <a href="index.html"><span>logout</span></a>
             </td>
           </tr>
         </table>

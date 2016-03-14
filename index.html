@@ -5,6 +5,13 @@
     <title>Hacker News</title>
     <link rel="icon" href="icon.ico">
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
   </head>
   <body>
     <table id = "main_body">
@@ -23,28 +30,31 @@
               </span>
             </td>
             <td id = "login">
-              <div class="dropdown">
-                <span>Register</span>
-                <div class="dropdown-content">
-                  <form class = "login_drop" action="index.html" method="post">
-                    username <input type="text" name="username" id = "login_inf" class="input_line"><br>
-                    password <input type="password" name="password" id = "login_inf" class="input_line"><br>
-                    repeat password <input type="password" name="username" id = "login_inf" class="input_line"><br>
-                    <input type="submit" name="submit_thread" id="login_submit">
-                  </form>
+              <!-- <div class="container"> -->
+                <span class="" data-toggle = "modal" data-target = "#modal-1">Register</span>
+                <div class="modal" id = "modal-1">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button class = "close" type="button" name="button" data-dismiss = "modal">&times;</button>
+                          <h3 class="modal-title">This is the heading </h3>
+                        </div>
+                      </div>
+                    </div>
                 </div>
-              </div>
+              <!-- </div> -->
                |
-              <div class="dropdown">
-                <span>login</span>
-                <div class="dropdown-content">
-                  <form class = "login_drop" action="index.html" method="post">
-                    username <input type="text" name="username" id = "login_inf" class="input_line"><br>
-                    password <input type="password" name="password" id = "login_inf" class="input_line"><br>
-                    <input type="submit" name="submit_thread" id="login_submit" value="Sign in">
-                  </form>
-                </div>
-              </div>
+               <span class="" data-toggle = "modal" data-target = "#modal-2">Login</span>
+               <div class="modal" id = "modal-2">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <button class = "close" type="button" name="button" data-dismiss = "modal">&times;</button>
+                         <h3 class="modal-title" style="text-align:center;">This is the heading  login</h3>
+                       </div>
+                     </div>
+                   </div>
+               </div>
             </td>
           </tr>
         </table>
@@ -59,7 +69,7 @@
             <br>
              <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
                 4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
+          </l i>
           <li id = "thread">
             <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
             <div id = "thread_title">
