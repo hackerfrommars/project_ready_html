@@ -12,6 +12,7 @@
 
   </head>
   <body>
+    <br>
     <table>
       <tr>
         <table class = "main_bar">
@@ -30,6 +31,7 @@
           </tr>
         </table>
       </tr>
+      <br>
       <tr>
         <div id = "profile_container">
         <div id = "comm_container">
@@ -44,6 +46,80 @@
           <textarea name="comment" rows="8" cols="40" placeholder="Write a comment here"></textarea><br>
           <input type="submit" id = "comment_button">
         </form>
+      </div>
+      </tr>
+      <tr>
+        <div class="threads" style="padding-top: 5%;">
+          <div id = "comments">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+            <p id = "thread_footer" >by <a href="profile.html">johnthebest</a>
+                40 hours ago</p>
+            <div id = "comment_content">
+              <p>
+                I almost overlooked this article because I got turned off by the opening description in base 10, as there is a lot of math trivia out there that is specific to base 10 which holds little general significance.
+                <br>But a little further down, the article discusses how this was discovered originally in base 3, and I think it's much simpler to understand in that context, since all primes except 3 (aka 10 base 3) end in just either 1 or 2:
+                "Looking at prime numbers written in base 3 — in which roughly half the primes end in 1 and half end in 2 — he found that among primes smaller than 1,000, a prime ending in 1 is more than twice as likely to be followed by a prime ending in 2 than by another prime ending in 1."
+              </p>
+              <a href="comments.html" style="font-size:10px;">reply</a>
+            </div>
+            <div id = "comments">
+              <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+              <div id = "thread_title">
+              <p id = "thread_footer" >by <a href="profile.html">mikey12</a>
+                  20 hours ago</p>
+              <div id = "comment_content">
+                <p>
+                  Indeed, they conjecture that the primes' last digits "conspire" in every base > 2, which is very interesting.
+                </p>
+                <a href="comments.html" style="font-size:10px;">reply</a>
+              </div>
+              <div id = "comments">
+                <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+                <div id = "thread_title">
+                <p id = "thread_footer" >by <a href="profile.html">mefisto</a>
+                    19 minutes ago</p>
+                <div id = "comment_content">
+                  <p>
+                    I give you credit.
+                  </p>
+                  <a href="comments.html" style="font-size:10px;">reply</a>
+                </div>
+              </div>
+
+            </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+        <div id = "comments">
+          <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+          <div id = "thread_title">
+          <p id = "thread_footer" >by <a href="profile.html">metalGear</a>
+              15 hours ago</p>
+          <div id = "comment_content">
+            <p>
+              "If Alice tosses a coin until she sees a head followed by a tail, and Bob tosses a coin until he sees two heads in a row, then on average, Alice will require four tosses while Bob will require six tosses (try this at home!), even though head-tail and head-head have an equal chance of appearing after two coin tosses."
+              <br>How does this work?
+            </p>
+            <a href="comments.html" style="font-size:10px;">reply</a>
+          </div>
+          <div id = "comments">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+            <p id = "thread_footer" >by <a href="profile.html">freeman</a>
+                20 minutes ago</p>
+            <div id = "comment_content">
+              <p>
+                Correct, but the point is if Alice doesn't get a tail, that means she got a head, so she is still in the same position as she was before the flip, only needing a single tail to complete the sequence. If Bob gets a head, then a tail, he now needs two consecutive heads to complete his sequence.
+              </p>
+              <a href="comments.html" style="font-size:10px;">reply</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
       </div>
       </tr>
       <tr>

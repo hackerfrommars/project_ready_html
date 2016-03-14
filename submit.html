@@ -12,6 +12,7 @@
 
   </head>
   <body>
+    <br>
     <table>
       <tr>
         <table class = "main_bar">
@@ -30,6 +31,7 @@
           </tr>
         </table>
       </tr>
+      <br>
       <tr>
         <div id="profile_container">
           <!-- <table>
@@ -55,11 +57,18 @@
               </td>
             </tr>
           </table> -->
-        <form action="index.html" method="post" style="padding: 2%;">
-          title <input type="text" name="title" id = "submit" class="input_line"><br>
-          url <input type="text" name="url" id = "submit" class="input_line"><br>
-          <input type="submit" name="submit_thread" id="comment_button">
-        </form>
+          <form role="form" style="width: 20%; font-size: 12px;" action="index.html" style="margin-left: 20px;">
+             <div class="form-group">
+               <label for="title">Title</label>
+               <input type="text" class="form-control" id="title" style="height: 25px;">
+             </div>
+             <div class="form-group">
+               <label for="url">Url</label>
+               <input type="text" class="form-control" id="url" style="height: 25px;">
+             </div>
+             <button type="submit" class="btn btn-default" style="width:30%; height:30px;">Submit</button>
+           </form>
+
       </div>
       </tr>
       <tr>

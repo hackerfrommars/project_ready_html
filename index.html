@@ -10,10 +10,15 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+    <style>
+    a:visited{
+      color:  black;
+    }
+    </style>
 
   </head>
   <body>
+    <br>
     <table id = "main_body">
       <tr>
         <table class = "main_bar">
@@ -21,7 +26,7 @@
             <td id = "main_pic_container"><a href="index.html"><img src="mainPic.gif" id = "main_pic"></a></td>
             <td id="main_menu_container">
               <span>
-                <a href="index.html" id = "hot">Hacker News</a>
+                <a href="index.html" id = "hot" style="color:black;">Hacker News</a>&nbsp;|
                 <!-- <a href="welcome_page.html">Welcome page </a> | -->
                 <a href="new.html">new</a> |
                 <a href="comments.html">comments</a> |
@@ -59,171 +64,107 @@
           </tr>
         </table>
       </tr>
+      <br>
       <tr>
         <div class="threads">
-        <ol>
-          <li id = "thread">
+          <div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+              <a href="https://gogameguru.com/alphago-4/">Google opening new internship for summer season</a>
+            <br>
+             <p id = "thread_footer" >1500 points by <a href="profile.html">sergey9898</a>
+                15 hours ago | <a href="comments.html">1550 comments</a></p></div>
+          </div>
+          <div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+              <a href="https://gogameguru.com/alphago-4/">Researchers found cure to cancer</a>
+            <br>
+             <p id = "thread_footer" >456 points by <a href="profile.html">mike123</a>
+                20 minutes ago | <a href="comments.html">250 comments</a></p></div>
+          </div>
+
+          <div id = "thread">
             <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
             <div id = "thread_title">
               <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
             <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </l i>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
+             <p id = "thread_footer" >50 points by <a href="profile.html">jsw4324</a>
+                40 hours ago | <a href="comments.html">155 comments</a></p></div>
+          </div><div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
             <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
+              <a href="https://gogameguru.com/alphago-4/">Google opening new internship for summer season</a>
             <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
+             <p id = "thread_footer" >1500 points by <a href="profile.html">sergey9898</a>
+                15 hours ago | <a href="comments.html">1550 comments</a></p></div>
+          </div>
+          <div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
             <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
+              <a href="https://gogameguru.com/alphago-4/">Researchers found cure to cancer</a>
             <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
-          <li id = "thread">
-            <img src="upvote_big.gif" alt="up" id = "upvote_pic"/>
-            <div id = "thread_title">
-              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
-            <br>
-             <p id = "thread_footer" >456 points by <a href="profile.html">jsw4324</a>
-                4 hours ago | <a href="comments.html">155 comments</a></p></div>
-          </li>
+             <p id = "thread_footer" >456 points by <a href="profile.html">mike123</a>
+                20 minutes ago | <a href="comments.html">250 comments</a></p></div>
+          </div>
 
-        </ol>
+          <div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
+            <br>
+             <p id = "thread_footer" >50 points by <a href="profile.html">jsw4324</a>
+                40 hours ago | <a href="comments.html">155 comments</a></p></div>
+          </div><div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+              <a href="https://gogameguru.com/alphago-4/">Google opening new internship for summer season</a>
+            <br>
+             <p id = "thread_footer" >1500 points by <a href="profile.html">sergey9898</a>
+                15 hours ago | <a href="comments.html">1550 comments</a></p></div>
+          </div>
+          <div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+              <a href="https://gogameguru.com/alphago-4/">Researchers found cure to cancer</a>
+            <br>
+             <p id = "thread_footer" >456 points by <a href="profile.html">mike123</a>
+                20 minutes ago | <a href="comments.html">250 comments</a></p></div>
+          </div>
+
+          <div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
+            <br>
+             <p id = "thread_footer" >50 points by <a href="profile.html">jsw4324</a>
+                40 hours ago | <a href="comments.html">155 comments</a></p></div>
+          </div><div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+              <a href="https://gogameguru.com/alphago-4/">Google opening new internship for summer season</a>
+            <br>
+             <p id = "thread_footer" >1500 points by <a href="profile.html">sergey9898</a>
+                15 hours ago | <a href="comments.html">1550 comments</a></p></div>
+          </div>
+          <div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+              <a href="https://gogameguru.com/alphago-4/">Researchers found cure to cancer</a>
+            <br>
+             <p id = "thread_footer" >456 points by <a href="profile.html">mike123</a>
+                20 minutes ago | <a href="comments.html">250 comments</a></p></div>
+          </div>
+
+          <div id = "thread">
+            <img src="upvote_big.gif" alt="up" id = "upvote_pic" onclick = "dosmt();"/>
+            <div id = "thread_title">
+              <a href="https://gogameguru.com/alphago-4/">Lee Sedol Beats AlphaGo in Game 4</a>
+            <br>
+             <p id = "thread_footer" >50 points by <a href="profile.html">jsw4324</a>
+                40 hours ago | <a href="comments.html">155 comments</a></p></div>
+          </div>
+
       </div>
       </tr>
       <tr>
